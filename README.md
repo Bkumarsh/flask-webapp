@@ -15,31 +15,38 @@ sudo apt update
 ```
 # Step 2: Required packages install
 Python and its dependencies
-
-
+```bash
 sudo apt install -y python3 python3-pip python3-dev build-essential default-libmysqlclient-dev
-
+```
 # Step 3: Flask + MySQL library install
+```bash
 pip3 install flask flask-mysql
-
+```
 # Step 4: Project folder create karo
+```bash
 mkdir webapp
 cd webapp
-
+```
 # Step 5: app.py file banao
+```bash
 nano app.py
-
+```
 # Step 6: App run karo
+```bash
 python3 app.py
-
+```
 # Step 7: Browser me check karo
+```bash
 http://localhost:5000
 http://<IP>:5000
-
+```
 # Step 8: Test URLs
+```bash
 http://<IP>:5000
 http://<IP>:5000/how%20are%20you
-
+```
 # Step 9: Agar open nahi ho raha
+```bash
 Firewall allow karo
 sudo ufw allow 5000
+```
