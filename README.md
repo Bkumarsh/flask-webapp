@@ -10,10 +10,12 @@ Install and Configure Web Server
 Start Web Server
 
 # Step 1: System update
+```bash
 sudo apt update
-
+```
 # Step 2: Required packages install
 Python and its dependencies
+
 
 sudo apt install -y python3 python3-pip python3-dev build-essential default-libmysqlclient-dev
 
