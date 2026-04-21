@@ -1,10 +1,19 @@
 # Flask Web App
 My first Flask project 🚀
 
+This is a simple web application using Python Flask and MySQL database. This is used in the demonstration of the development of Ansible Playbooks.
+
+Below are the steps required to get this working on a base linux system.
+
+Install all required dependencies
+Install and Configure Web Server
+Start Web Server
+
 # Step 1: System update
 sudo apt update
 
 # Step 2: Required packages install
+Python and its dependencies
 sudo apt install -y python3 python3-pip python3-dev build-essential default-libmysqlclient-dev
 
 # Step 3: Flask + MySQL library install
